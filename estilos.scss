@@ -1,5 +1,6 @@
 $vermelho: red;
 $color: white;
+$cinza: gray;
 
 .container {
     background-color: $vermelho;
@@ -7,4 +8,13 @@ $color: white;
 
 h1 {
     color: $color;
+}
+
+ul.minha-lista {
+    list-style-type: none;
+    background-color: $cinza;
+    li {
+        margin: 0;
+        padding: 0;
+    }
 }
